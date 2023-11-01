@@ -69,7 +69,7 @@ begin
   {$endif}
     FileName := IncludeTrailingPathDelimiter(GetAppConfigDir(false)) + 'castle-pasls.ini';
 
-  //WriteLn('Reading config from ', FileName);
+  WriteLn('Reading config from ', FileName);
   UserConfig := TIniFile.Create(FileName);
 end;
 
