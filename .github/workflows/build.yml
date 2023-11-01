@@ -36,5 +36,5 @@ jobs:
         with:
           name: Pascal_Language_Server
           path: |
-            server/lib/*
+            *
           retention-days: 60
